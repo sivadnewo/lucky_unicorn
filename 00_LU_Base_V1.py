@@ -1,7 +1,13 @@
 import random
 
 def show_instructions():
-    print("just spend all your money here okay... thanks. good luck.")
+    print("You can spend between 1-10 dollars depending on how many rounds you want guaranteed. \n"
+          "Each round costs a dollar. \n"
+          "There is 4 possible tokens you can get each having their own values \n"
+          "Unicorn (adds $4 to your balance)\n"
+          "Horse or Zebra (depletes $0.50 from your balance)\n"
+          "Donkey (depletes $1 from your balance)\n"
+          "if you wish to quit while your ahead then just type xxx rather than pressing enter.")
     print()
 
 
